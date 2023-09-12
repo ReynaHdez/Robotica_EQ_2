@@ -1,14 +1,14 @@
 from keras.utils import load_img, img_to_array, array_to_img
 
 largo, alto = 250, 250
-file = 'Archivos\Archivos_Reyna\Foto10.jpeg'
+file = 'Archivos\Archivos_Reyna\Foto15.jpeg'
 
 imagen_original = load_img(file, target_size=(largo, alto), color_mode="grayscale")
 
 arreglo_img_a_procesar = img_to_array(imagen_original)
 print(arreglo_img_a_procesar.shape)
 
-nombre_archivo  = 'en_pixeles_R10.csv'
+nombre_archivo  = 'en_pixeles_R15.csv'
 archivo_imagen = open(nombre_archivo, 'w')
 #img_convolucionada = []
 for filas in range(1,alto-1):
