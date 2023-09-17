@@ -28,33 +28,11 @@ def predict(file):
 
     match respuesta:
         case 0:
-            return "P1-Armendariz"
+            return "P1-Hernandez"
         case 1:
-            return "P10-Lopez"
+            return "P2-Salas"
         case 2:
-            return "P11-Hernandez"
-        case 3:
-            return "P12-Salas"
-        case 4:
-            return "P13-Ruiz"
-        case 5:
-            return "P14-Luna"
-        case 6:
-            return "P2-Avila"
-        case 7:
-            return "P3-Carrera"
-        case 8:
-            return "P4-Sanchez"
-        case 9:
-            return "P5-Torres"
-        case 10:
-            return "P6-Cueto"
-        case 11:
-            return "P7-Tadeo"
-        case 12:
-            return "P8-Piñeiro"
-        case 13:
-            return "P9-Latofski"
+            return "P3-Tadeo"
         case _:
             return "----"
 
